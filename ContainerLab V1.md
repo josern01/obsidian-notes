@@ -3,7 +3,7 @@ share_link: https://share.note.sx/y5sbsjmy
 share_updated: 2026-10-01T20:21:34-06:00
 ---
 
-![[Screenshot 2026-10-01 185201.png]]
+![Screenshot 2026-10-01 185201.png](Screenshot%202026-10-01%20185201.png)
 
 Mediante WSL corremos containerlab, podemos ver la interfaz grafica en VScode
 
@@ -13,11 +13,11 @@ Se construyó un ejemplo mínimo funcional para probar el flujo completo antes d
 backend.py (FastAPI): recibe JSON con 2 nodos, lo traduce a YAML de Containerlab, lo guarda en disco, y ahora ejecuta automáticamente "clab deploy" vía subprocess para desplegar la topología real. 
 frontend.html: formulario simple en HTML/JS puro (sin framework todavía) que manda el JSON al backend con fetch y muestra el YAML generado.
 
-![[Pasted image 20261001201814.png]]
+![Pasted image 20261001201814.png](Pasted%20image%2020261001201814.png)
 
 Podemos observar que mediante la extension de container lab se construye 
 
-![[Pasted image 20261001201845.png]]
+![Pasted image 20261001201845.png](Pasted%20image%2020261001201845.png)
 
 ### Frontend simple
 

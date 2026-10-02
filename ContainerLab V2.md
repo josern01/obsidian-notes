@@ -74,7 +74,7 @@ Usa la librería **React Flow**, que resuelve toda la parte visual de "editor de
 3. Al hacer clic en "Desplegar topología", la función `desplegarTopologia` recorre `nodes` y `edges` y los traduce al formato exacto que el backend espera (`{nodos: [...], enlaces: [...]}`, usando `origen`/`destino` en vez de `source`/`target`).
 4. Hace `fetch(POST /topologias)` con ese JSON, y muestra la respuesta (YAML + salida de `clab`, o el error) en el `<pre>` de abajo.
 
-![[Pasted image 20261001214753.png]]
+![Pasted image 20261001214753.png](Pasted%20image%2020261001214753.png)
 
 ---
 
@@ -433,7 +433,7 @@ pyyaml
 ---
 
 
-![[Pasted image 20261001214753.png]]
+![Pasted image 20261001214753.png](Pasted%20image%2020261001214753.png)
 
 Vemos que despliega el yaml
 
@@ -457,17 +457,17 @@ topology:
 
 Esto se despliega automáticamente a containerlab
 
-![[Pasted image 20261001214853.png]]
+![Pasted image 20261001214853.png](Pasted%20image%2020261001214853.png)
 
 Podemos ver que incluso con la extension en visible la topología que hicimos a partir de React Flow 
 
-![[Pasted image 20261001214949.png]]
+![Pasted image 20261001214949.png](Pasted%20image%2020261001214949.png)
 
 Tenemos corriendo dos servicios, el backend y frontend
 
-![[Pasted image 20261001215033.png]]
+![Pasted image 20261001215033.png](Pasted%20image%2020261001215033.png)
 
-![[Pasted image 20261001215045.png]]
+![Pasted image 20261001215045.png](Pasted%20image%2020261001215045.png)
 
 
 > [!Iimpo] Resumen
